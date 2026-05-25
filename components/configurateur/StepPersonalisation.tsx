@@ -83,7 +83,7 @@ export default function StepPersonalisation() {
                 aria-hidden="true"
               />
               <span className="text-[10px] text-charcoal/40 font-semibold uppercase tracking-widest">
-                Sufi
+                Sufi Chocolat
               </span>
             </div>
             <p className="font-accent italic text-charcoal text-base leading-relaxed min-h-[52px]">

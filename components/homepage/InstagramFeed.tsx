@@ -42,7 +42,7 @@ export default function InstagramFeed() {
         <div className="text-center mb-10" data-reveal>
           <div className="section-reveal inline-flex items-center gap-2 bg-gradient-to-r from-[#E1306C]/10 to-[#F77737]/10 border border-[#E1306C]/15 rounded-full px-4 py-2 mb-4">
             <Instagram size={16} className="text-[#E1306C]" />
-            <span className="text-sm font-semibold text-[#E1306C]">@sufi.cadeaux</span>
+            <span className="text-sm font-semibold text-[#E1306C]">@sufichocolat</span>
           </div>
           <h2
             id="instagram-heading"
@@ -104,7 +104,7 @@ export default function InstagramFeed() {
             className="section-reveal inline-flex items-center gap-2 border-2 border-[#E1306C]/30 text-[#E1306C] rounded-full px-6 py-3 text-sm font-semibold hover:bg-[#E1306C]/5 hover:border-[#E1306C] transition-all duration-200"
           >
             <Instagram size={16} />
-            Suivre @sufi.cadeaux
+            Suivre @sufichocolat
           </a>
         </div>
       </div>

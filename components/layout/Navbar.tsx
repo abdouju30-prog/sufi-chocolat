@@ -56,7 +56,7 @@ export default function Navbar() {
                 <path d="M15 25C15 25 16.5 23 18 23C19.5 23 21 25 21 25" stroke="#C9A84C" strokeWidth="1.2" strokeLinecap="round"/>
               </svg>
               <span className="font-display text-2xl font-semibold text-charcoal tracking-tight">
-                Sufi
+                Sufi Chocolat
               </span>
             </Link>
 

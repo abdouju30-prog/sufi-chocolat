@@ -72,7 +72,7 @@ export default function PersonalizationSection() {
                     <circle cx="18" cy="18" r="17" fill="#FDF2F6" stroke="#B5275C" strokeWidth="1.5"/>
                     <path d="M18 8C18 8 14 12 14 16C14 18.2 15.8 20 18 20C20.2 20 22 18.2 22 16C22 12 18 8 18 8Z" fill="#B5275C"/>
                   </svg>
-                  <span className="font-display text-sm font-semibold text-pivoine">Sufi</span>
+                  <span className="font-display text-sm font-semibold text-pivoine">Sufi Chocolat</span>
                 </div>
 
                 {/* Message */}

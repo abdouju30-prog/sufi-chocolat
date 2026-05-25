@@ -50,7 +50,7 @@ export default function Footer() {
                 <path d="M25 14C25 14 26 18 23 20C21.2 21.1 19 20.2 18 18.5C17 16.8 17.9 14.6 19.6 13.6C22.6 11.8 25 14 25 14Z" fill="#D4527E"/>
                 <path d="M18 20C18 20 18 24 18 27" stroke="#C9A84C" strokeWidth="1.5" strokeLinecap="round"/>
               </svg>
-              <span className="font-display text-xl font-semibold">Sufi</span>
+              <span className="font-display text-xl font-semibold">Sufi Chocolat</span>
             </Link>
 
             <p className="text-white/60 text-sm leading-relaxed max-w-xs mb-5">
@@ -62,7 +62,7 @@ export default function Footer() {
             <div className="space-y-2 mb-6">
               {[
                 { icon: <Phone size={14} />,   text: '+33 1 23 45 67 89' },
-                { icon: <Mail  size={14} />,   text: 'bonjour@sufi.fr' },
+                { icon: <Mail  size={14} />,   text: 'bonjour@sufichocolat.fr' },
                 { icon: <MapPin size={14} />,  text: 'Paris, France — Livraison nationale' },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-2 text-white/55 text-sm">

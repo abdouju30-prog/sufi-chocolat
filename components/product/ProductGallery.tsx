@@ -31,7 +31,7 @@ export default function ProductGallery() {
 
   const handleShare = async () => {
     if (navigator.share) {
-      await navigator.share({ title: 'Bouquet Signature Rosa — Sufi', url: window.location.href })
+      await navigator.share({ title: 'Bouquet Signature Rosa — Sufi Chocolat', url: window.location.href })
     } else {
       navigator.clipboard.writeText(window.location.href)
     }

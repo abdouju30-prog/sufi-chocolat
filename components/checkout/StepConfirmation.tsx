@@ -218,7 +218,7 @@ export default function StepConfirmation() {
           aria-hidden="true"
         >
           <p className="text-xs text-charcoal/35">
-            Partagez l&apos;amour → <span className="text-pivoine font-medium">@sufi.cadeaux</span>
+            Partagez l&apos;amour → <span className="text-pivoine font-medium">@sufichocolat</span>
           </p>
         </div>
       </div>

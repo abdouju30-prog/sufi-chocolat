@@ -59,7 +59,7 @@ export default function HeroSection() {
     <section
       ref={sectionRef}
       className="relative min-h-[92dvh] flex items-center overflow-hidden"
-      aria-label="Bienvenue chez Sufi"
+      aria-label="Bienvenue chez Sufi Chocolat"
     >
       {/* Background image */}
       <div

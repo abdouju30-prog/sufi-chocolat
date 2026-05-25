@@ -18,12 +18,12 @@ function CheckoutInner() {
       {/* Minimal header */}
       <header className="bg-white border-b border-gray-100 sticky top-0 z-40">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 group" aria-label="Retour à l'accueil Sufi">
+          <Link href="/" className="flex items-center gap-2 group" aria-label="Retour à l'accueil Sufi Chocolat">
             <div className="w-7 h-7 bg-gradient-to-br from-pivoine to-rose-400 rounded-full flex items-center justify-center">
               <Flower2 size={14} className="text-white" aria-hidden="true" />
             </div>
             <span className="font-display text-lg font-bold text-charcoal group-hover:text-pivoine transition-colors">
-              Sufi
+                Sufi Chocolat
             </span>
           </Link>
 

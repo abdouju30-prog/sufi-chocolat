@@ -9,7 +9,7 @@ const REVIEWS = [
     avatar: 'https://i.pravatar.cc/80?img=44',
     rating: 5,
     date:   'Il y a 3 jours',
-    text:   "Un bouquet absolument magnifique, livré frais et bien emballé. La peluche géante a fait craquer toute la famille ! Je recommande Sufi les yeux fermés.",
+    text:   "Un bouquet absolument magnifique, livré frais et bien emballé. La peluche géante a fait craquer toute la famille ! Je recommande Sufi Chocolat Chocolat les yeux fermés.",
     tag:    'Coffret + Bouquet',
     verified: true,
   },

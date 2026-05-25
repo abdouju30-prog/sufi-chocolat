@@ -164,7 +164,7 @@ export default function Newsletter() {
               <Check size={30} className="text-green-600" />
             </div>
             <h3 className="font-display text-xl font-semibold text-charcoal">
-              Bienvenue dans la famille Sufi !
+              Bienvenue dans la famille Sufi Chocolat !
             </h3>
             <p className="text-charcoal/65 text-sm">
               Votre code <strong className="text-pivoine">FLORALIA10</strong> vous a été envoyé à{' '}
