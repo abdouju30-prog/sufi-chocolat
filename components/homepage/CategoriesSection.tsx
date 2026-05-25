@@ -30,7 +30,7 @@ const CATEGORIES = [
   {
     title:       'Chocolats Artisanaux',
     subtitle:    'Fait main chaque jour',
-    description: 'Nos maîtres chocolatiers créent des ganaches et pralinés d'exception à partir de cacao d'origine, pour des émotions gustatives uniques.',
+    description: "Nos maîtres chocolatiers créent des ganaches et pralinés d'exception à partir de cacao d'origine, pour des émotions gustatives uniques.",
     badge:       '🍫 Recettes exclusives maison',
     href:        '/boutique/chocolats',
     count:       '24 créations',
