@@ -13,7 +13,7 @@ const BOXES: (ConfigItem & { pieces: string; type: string })[] = [
   {
     id: 21, name: 'Coffret Pralinés', price: 28, pieces: '20 pièces', type: 'Pralinés',
     image: 'https://images.unsplash.com/photo-1606312619070-d48b4c652a52?w=500&q=80&auto=format',
-    extra: { desc: 'Pralinés noisette & amande maison', highlight: null },
+    extra: { desc: 'Pralinés noisette & amande maison', highlight: '' },
   },
   {
     id: 22, name: 'Boîte Découverte', price: 38, pieces: '32 pièces', type: 'Mixte',
@@ -23,7 +23,7 @@ const BOXES: (ConfigItem & { pieces: string; type: string })[] = [
   {
     id: 23, name: 'Tablettes Artisanales', price: 22, pieces: '3 tablettes', type: 'Tablettes',
     image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?w=500&q=80&auto=format',
-    extra: { desc: '70% cacao Grand Cru + lait + blanc', highlight: null },
+    extra: { desc: '70% cacao Grand Cru + lait + blanc', highlight: '' },
   },
 ]
 

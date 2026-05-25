@@ -92,7 +92,6 @@ export default function OccasionsSection() {
               role="listitem"
               data-reveal
               className="section-reveal flex-shrink-0 flex flex-col items-center gap-3 px-5 py-4 rounded-2xl border hover:shadow-card transition-all duration-300 hover:-translate-y-1 group min-w-[110px]"
-              style={{ backgroundColor: occ.bg, borderColor: occ.border }}
               style={{ backgroundColor: occ.bg, borderColor: occ.border, ['--index' as string]: i } as React.CSSProperties}
             >
               <span className="text-3xl group-hover:scale-110 transition-transform duration-200" role="img" aria-label={occ.label}>
