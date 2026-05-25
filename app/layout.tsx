@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
+import ClientProviders from '@/components/layout/ClientProviders'
 
 export const metadata: Metadata = {
   title:       'Sufi Chocolat — Bouquets · Peluches · Chocolats Artisanaux',
@@ -19,11 +18,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr">
       <body className="min-h-screen flex flex-col bg-white text-charcoal font-body antialiased">
-        <Navbar />
-        <main className="flex-1">
+        <ClientProviders>
           {children}
-        </main>
-        <Footer />
+        </ClientProviders>
       </body>
     </html>
   )

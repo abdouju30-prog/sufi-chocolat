@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Heart, ShoppingBag, Star, CheckCircle2, Zap } from 'lucide-react'
+import { useCart } from '@/components/cart/CartContext'
 
 export interface Product {
   id:        number
@@ -23,11 +24,20 @@ export interface Product {
 }
 
 export default function ProductCard({ product }: { product: Product }) {
-  const [wished,  setWished]  = useState(false)
-  const [added,   setAdded]   = useState(false)
+  const [wished, setWished] = useState(false)
+  const [added,  setAdded]  = useState(false)
+  const { addItem } = useCart()
 
   const handleCart = (e: React.MouseEvent) => {
     e.preventDefault()
+    addItem({
+      id:       product.id,
+      slug:     product.slug,
+      name:     product.name,
+      price:    product.price,
+      image:    product.image,
+      category: product.category,
+    })
     setAdded(true)
     setTimeout(() => setAdded(false), 2200)
   }

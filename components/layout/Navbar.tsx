@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, X, Search, Heart, ShoppingBag, User, ChevronDown } from 'lucide-react'
+import { useCart } from '@/components/cart/CartContext'
 
 const NAV_LINKS = [
   { label: 'Boutique',    href: '/boutique',    sub: ['Bouquets', 'Peluches', 'Chocolats', 'Coffrets'] },
@@ -12,11 +13,11 @@ const NAV_LINKS = [
 ]
 
 export default function Navbar() {
-  const [scrolled,     setScrolled]     = useState(false)
-  const [menuOpen,     setMenuOpen]     = useState(false)
+  const [scrolled,       setScrolled]       = useState(false)
+  const [menuOpen,       setMenuOpen]       = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
-  const [cartCount]    = useState(2)
-  const [wishlistCount] = useState(3)
+  const { totalItems, openDrawer } = useCart()
+  const wishlistCount = 3
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24)
@@ -122,18 +123,18 @@ export default function Navbar() {
                 )}
               </Link>
 
-              <Link
-                href="/panier"
-                aria-label={`Panier (${cartCount} articles)`}
+              <button
+                onClick={openDrawer}
+                aria-label={`Panier (${totalItems} article${totalItems !== 1 ? 's' : ''})`}
                 className="relative flex items-center justify-center w-9 h-9 rounded-full hover:bg-blush text-charcoal hover:text-pivoine transition-colors duration-200"
               >
                 <ShoppingBag size={18} />
-                {cartCount > 0 && (
+                {totalItems > 0 && (
                   <span className="absolute -top-0.5 -right-0.5 bg-pivoine text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center leading-none">
-                    {cartCount}
+                    {totalItems}
                   </span>
                 )}
-              </Link>
+              </button>
 
               <Link
                 href="/compte"

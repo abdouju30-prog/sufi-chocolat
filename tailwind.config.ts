@@ -72,6 +72,10 @@ const config: Config = {
           '60%':  { transform: 'scale(1.05)', opacity: '1' },
           '100%': { transform: 'scale(1)',    opacity: '1' },
         },
+        slideInRight: {
+          '0%':   { transform: 'translateX(100%)', opacity: '0' },
+          '100%': { transform: 'translateX(0)',     opacity: '1' },
+        },
       },
       animation: {
         float:          'float 6s ease-in-out infinite',
@@ -86,7 +90,8 @@ const config: Config = {
         'fade-in':      'fadeIn  0.5s  ease-out both',
         'scale-in':     'scaleIn 0.5s  ease-out both',
         'slide-left':   'slideLeft 0.55s ease-out both',
-        'bounce-in':    'bounceIn 0.6s cubic-bezier(.36,.07,.19,.97) both',
+        'bounce-in':      'bounceIn 0.6s cubic-bezier(.36,.07,.19,.97) both',
+        'slide-in-right': 'slideInRight 0.35s cubic-bezier(0.32,0.72,0,1) both',
       },
       boxShadow: {
         'card':        '0 4px 24px -4px rgba(181,39,92,0.10)',
